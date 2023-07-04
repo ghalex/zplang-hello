@@ -1,3 +1,3 @@
 # zplang-hello
 
-Hello World project for zplang
+Hello World project for Zplang

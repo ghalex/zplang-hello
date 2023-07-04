@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "execute": "zplang-cli execute -f ./src/hello.zp",
-    "test": "zplang-cli"
+    "backtest": "zplang-cli backtest",
+    "cli": "zplang-cli"
   },
   "author": "Ghiura Alexandru",
   "license": "ISC",

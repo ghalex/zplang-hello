@@ -5,7 +5,7 @@
 (def symbols [
   "AAPL",
   "MSFT"
-])
+]
 
 (loop symbol in symbols
   (buy {symbol} 1 {target: true})

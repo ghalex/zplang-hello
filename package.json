@@ -4,13 +4,12 @@
   "description": "zplang hello world project",
   "main": "index.js",
   "scripts": {
-    "execute": "zplang-cli execute -f ./src/hello.zp",
-    "backtest": "zplang-cli backtest",
-    "cli": "zplang-cli"
+    "execute": "zplang execute ./src/hello.zp",
+    "backtest": "zplang backtest"
   },
   "author": "Ghiura Alexandru",
   "license": "ISC",
-  "dependencies": {
-    "zplang-cli": "^0.0.12"
+  "devDependencies": {
+    "zplang-cli": "^1.0.7"
   }
 }

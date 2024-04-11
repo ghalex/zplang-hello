@@ -3,7 +3,7 @@
   "tasks": [
     {
       "type": "shell",
-      "command": "clear && zplang execute ${relativeFile}",
+      "command": "clear && zplang execute ${relativeFile} -o orders.json",
       "problemMatcher": [],
       "label": "execute file",
       "detail": "zplang execute <file>",

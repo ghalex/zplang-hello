@@ -6,7 +6,7 @@
 ])
 
 (loop symbol in symbols
-  (buy {symbol} 1 {target: true})
+  (buy {symbol} 1)
 )
 
-(print (getPortfolio))
+(print (:orders (getPortfolio)))

@@ -9,4 +9,4 @@
   (buy {symbol} 1)
 )
 
-(print (:orders (getPortfolio)))
+(print "done")

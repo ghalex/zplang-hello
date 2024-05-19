@@ -1,6 +1,6 @@
-# zplang-hello
+# zptrade-hello
 
-Hello World project for Zplang
+Hello World project for ZpTrade
 
 ## Project Description
 

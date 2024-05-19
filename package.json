@@ -1,17 +1,20 @@
 {
-  "name": "zplang-hello",
+  "name": "zptrade-hello",
   "version": "1.0.1",
-  "description": "zplang hello world project",
+  "description": "zptrade hello world project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "execute": "zplang execute ./src/hello.zp",
-    "backtest": "zplang backtest ./src/hello.zp -r report/data.json",
-    "version": "zplang -v"
+    "execute": "zptrade execute ./src/hello.zp",
+    "backtest": "zptrade backtest -r report/data.json",
+    "version": "zptrade -v"
   },
   "author": "Ghiura Alexandru",
   "license": "ISC",
   "devDependencies": {
-    "zplang-backtest": "^1.0.1",
-    "zplang-cli": "^1.0.14"
+    "zplang-backtest": "^1.0.3"
+  },
+  "dependencies": {
+    "zptrade-backtest": "^1.0.5"
   }
 }

@@ -9,6 +9,7 @@
   (buy {symbol} 1)
 )
 
+(print "date:" (date))
 (print "cash:" (getCash))
 (print "total:" (getTotalCapital))
 (print "orders:" (getOrders ))

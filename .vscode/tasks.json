@@ -3,10 +3,10 @@
   "tasks": [
     {
       "type": "shell",
-      "command": "clear && zplang execute ${relativeFile}",
+      "command": "clear && zptrade execute ${relativeFile}",
       "problemMatcher": [],
       "label": "execute file",
-      "detail": "zplang execute <file>",
+      "detail": "zptrade execute <file>",
       "group": {
         "kind": "build",
         "isDefault": true

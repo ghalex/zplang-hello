@@ -15,6 +15,6 @@
     "zplang-backtest": "^1.0.3"
   },
   "dependencies": {
-    "zptrade-backtest": "^1.0.5"
+    "zptrade-backtest": "^1.0.7"
   }
 }

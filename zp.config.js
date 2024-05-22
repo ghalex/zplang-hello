@@ -18,8 +18,8 @@ const config = {
     }]
   },
   backtest: {
-    date: "2024-05-01",
-    window: 10,
+    startDate: "2024-05-01",
+    endDate: "2024-05-10",
     saveResult: "./example/result.json",
     inputs: {
       assets: []

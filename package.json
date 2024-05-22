@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "execute": "zptrade execute ./src/hello.zp",
-    "backtest": "zptrade backtest -r report/data.json",
+    "backtest": "zptrade backtest ./src/hello.zp -s report/data.json",
     "version": "zptrade -v"
   },
   "author": "Ghiura Alexandru",

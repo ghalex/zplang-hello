@@ -6,15 +6,13 @@
   "type": "module",
   "scripts": {
     "execute": "zptrade execute ./src/hello.zp",
-    "backtest": "zptrade backtest ./src/hello.zp -s report/data.json",
+    "backtest": "zptrade backtest ./src/hello.js -s report/data.json",
     "version": "zptrade -v"
   },
   "author": "Ghiura Alexandru",
   "license": "ISC",
-  "devDependencies": {
-    "zplang-backtest": "^1.0.3"
-  },
   "dependencies": {
-    "zptrade-backtest": "^1.0.7"
+    "dayjs": "^1.11.11",
+    "zptrade-backtest": "^1.0.9"
   }
 }

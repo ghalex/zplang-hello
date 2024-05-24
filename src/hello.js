@@ -3,11 +3,13 @@ const window = 1
 const settings = {}
 
 function run() {
-
-  for (const symbol of assets) {
-    this.buy(this.asset(symbol), 1)
+  if (this.barIndex % 5 === 0) {
+    this.closePositions()
+  } else {
+    for (const symbol of assets) {
+      this.buy(this.asset(symbol), 1)
+    }
   }
-
 }
 
 return { assets, window, run }

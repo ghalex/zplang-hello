@@ -8,21 +8,14 @@ importers:
 
   .:
     dependencies:
+      dayjs:
+        specifier: ^1.11.11
+        version: 1.11.11
       zptrade-backtest:
-        specifier: ^1.0.7
-        version: 1.0.7
-    devDependencies:
-      zplang-backtest:
-        specifier: ^1.0.3
-        version: 1.0.3
+        specifier: ^1.0.9
+        version: 1.0.9
 
 packages:
-
-  '@zapant/core@2.0.8':
-    resolution: {integrity: sha512-Ek+2GK5bKhOOMxrE625+Q3WplZnEQHmJqRwylOiOPu2qeNbH0M0dCuIUmohi3i13uZJPGrOcIpiJobnLgeBPjw==}
-
-  '@zapant/indicators@1.0.8':
-    resolution: {integrity: sha512-4laMXfBC3joiSJRtXqzVF/b51P5yQ8Juj6ylRyyGzsxoqNOAfMkVX6e0Rola5TD1gFdiAriQUha51fQxfZhaAg==}
 
   dayjs@1.11.11:
     resolution: {integrity: sha512-okzr3f11N6WuqYtZSvm+F776mB41wRZMhKP+hc34YdW+KmtYYK9iqvHSwo2k9FEH3fhGXvOPV6yz2IcSrfRUDg==}
@@ -37,37 +30,16 @@ packages:
   simple-statistics@7.8.3:
     resolution: {integrity: sha512-JFvMY00t6SBGtwMuJ+nqgsx9ylkMiJ5JlK9bkj8AdvniIe5615wWQYkKHXe84XtSuc40G/tlrPu0A5/NlJvv8A==}
 
-  zod@3.23.8:
-    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
+  zplang@1.0.54:
+    resolution: {integrity: sha512-L4f7fRhE7swVG4hxHdxRhnmG7+ja+1hp3oq+Co5kGBwlcJCeqGhFAtCU6UXAMattLq3jyqtgjCLM9eSdq4EJVg==}
 
-  zplang-backtest@1.0.3:
-    resolution: {integrity: sha512-rpMm7/jbQ8W8DZ3HLH6BhFYoZgrsk/9NbAMnomhzOqwIs/uuwnAQ0+3mwAnwYgvj45SG8T3tjvivNBvVUP/n9A==}
+  zptrade-backtest@1.0.9:
+    resolution: {integrity: sha512-5hWUcrhiZ8U4wADRZtDcY1wtXNa+pAHKS1MtrMBd7w8xbZsQMriLCKkaHAuwhmoNZ/qtQdR+nXqClajpxhqS8g==}
 
-  zplang@1.0.49:
-    resolution: {integrity: sha512-vCMeF34kJ7LIzQE8nX6jARh9qloeaTr97kzLM2Ww1RjqoPjtTcuu8I+xkaOuXfSXval9RzKBOY7+vILFj2oZvw==}
-
-  zplang@1.0.52:
-    resolution: {integrity: sha512-6GbGw/cx7OGsnQ+FA33raKWBcrkUuoiNQzdi9t+bXey0K9u5lWQHLC16PtKZNFTYClNQY84a1EFHEMjhtUF6Xg==}
-
-  zptrade-backtest@1.0.7:
-    resolution: {integrity: sha512-0Fc2Kzd7XZiHMSG65zWJ/V9EyP01ltlPzaXrRIUu5ho3UQqTnXB5Ze+risLRH598bHTKnTTwz0rAbFDI6gUIDA==}
-
-  zptrade@1.0.4:
-    resolution: {integrity: sha512-PiOvIyZHAx1RbeSPToZc58TdTVa8c15VUTnE1o7Hk93PwpcaRMKurCjzThPuR10YYiPpWF8NSjz5JChE6noTxA==}
+  zptrade@1.0.6:
+    resolution: {integrity: sha512-VqrUQvqg1/WSZckFaUKax3q6YOhP4KmITZs2E83aIcHwydQllqA1zNqS67lPYuBvyJAhQJzhOuJrlby52iEX6A==}
 
 snapshots:
-
-  '@zapant/core@2.0.8':
-    dependencies:
-      dayjs: 1.11.11
-      ramda: 0.30.0
-      zod: 3.23.8
-
-  '@zapant/indicators@1.0.8':
-    dependencies:
-      dayjs: 1.11.11
-      ramda: 0.30.0
-      simple-statistics: 7.8.3
 
   dayjs@1.11.11: {}
 
@@ -77,38 +49,20 @@ snapshots:
 
   simple-statistics@7.8.3: {}
 
-  zod@3.23.8: {}
-
-  zplang-backtest@1.0.3:
+  zplang@1.0.54:
     dependencies:
-      dayjs: 1.11.11
-      ramda: 0.30.0
-      zplang: 1.0.49
-
-  zplang@1.0.49:
-    dependencies:
-      '@zapant/core': 2.0.8
-      '@zapant/indicators': 1.0.8
       dayjs: 1.11.11
       ohm-js: 17.1.0
       ramda: 0.30.0
+      zptrade: 1.0.6
 
-  zplang@1.0.52:
-    dependencies:
-      '@zapant/indicators': 1.0.8
-      dayjs: 1.11.11
-      ohm-js: 17.1.0
-      ramda: 0.30.0
-      zptrade: 1.0.4
-
-  zptrade-backtest@1.0.7:
+  zptrade-backtest@1.0.9:
     dependencies:
       dayjs: 1.11.11
-      ramda: 0.30.0
-      zplang: 1.0.52
-      zptrade: 1.0.4
+      zplang: 1.0.54
+      zptrade: 1.0.6
 
-  zptrade@1.0.4:
+  zptrade@1.0.6:
     dependencies:
       dayjs: 1.11.11
       ramda: 0.30.0

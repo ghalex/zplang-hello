@@ -1,4 +1,5 @@
 import { analyzers } from 'zptrade-backtest'
+import dayjs from 'dayjs'
 
 const config = {
   dataDir: "./data",
@@ -19,13 +20,13 @@ const config = {
   },
   backtest: {
     startDate: "2024-05-01",
-    endDate: "2024-05-10",
+    endDate: "2024-05-20",
     saveResult: "./example/result.json",
     inputs: {
       assets: []
     },
     analyzers: [
-      // new analyzers.RetursAnalyzer()
+      new analyzers.RetursAnalyzer(),
       new analyzers.PositionsAnalyzer()
     ]
   }

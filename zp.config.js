@@ -1,5 +1,4 @@
 import { analyzers } from 'zptrade-backtest'
-import dayjs from 'dayjs'
 
 const config = {
   dataDir: "./data",

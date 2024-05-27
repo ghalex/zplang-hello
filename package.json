@@ -12,6 +12,6 @@
   "author": "Ghiura Alexandru",
   "license": "ISC",
   "dependencies": {
-    "zptrade-backtest": "^1.0.9"
+    "zptrade-backtest": "^1.0.10"
   }
 }

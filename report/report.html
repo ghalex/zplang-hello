@@ -42,12 +42,11 @@
     {
       "imports": {
         "@observablehq/plot": "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm",
-        "zptrade-reports": "./../../../reports/dist/zptrade-reports.es.js"
+        "zptrade-reports": "https://cdn.jsdelivr.net/npm/zptrade-reports/dist/zptrade-reports.es.js"
       }
     }
   </script>
   <script type="module">
-
     import * as Plot from "@observablehq/plot"
     import renderReport from "zptrade-reports"
 
@@ -64,6 +63,7 @@
       const plots = Object.keys(data.analyzers).map(name => renderReport(name, data.analyzers[name])).flat()
       plots.forEach(plot => {
         plot.classList.add(..."shadow bg-white".split(" "))
+        console.log(plot)
         container.append(plot)
       })
 
@@ -72,8 +72,6 @@
       document.getElementById('cash2').textContent = data.endCash;
       document.getElementById('date').textContent = data.dateGenerated
     }
-
-
   </script>
 </body>
 

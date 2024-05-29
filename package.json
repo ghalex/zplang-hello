@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "execute": "zapcli execute ./src/hello.zp",
-    "backtest": "zapcli backtest ./src/hello.js -s report/data.json",
+    "backtest": "zapcli backtest ./src/hello.zp",
     "version": "zapcli -v"
   },
   "author": "Ghiura Alexandru",

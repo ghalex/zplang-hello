@@ -1,17 +1,18 @@
 {
-  "name": "zptrade-hello",
-  "version": "1.0.1",
-  "description": "zptrade hello world project",
+  "name": "zapcli-hello",
+  "version": "1.0.2",
+  "description": "zapcli hello world project",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "execute": "zptrade execute ./src/hello.zp",
-    "backtest": "zptrade backtest ./src/hello.js -s report/data.json",
-    "version": "zptrade -v"
+    "execute": "zapcli execute ./src/hello.zp",
+    "backtest": "zapcli backtest ./src/hello.js -s report/data.json",
+    "version": "zapcli -v"
   },
   "author": "Ghiura Alexandru",
   "license": "ISC",
   "dependencies": {
-    "zptrade-backtest": "^1.0.10"
+    "@zaptrade/backtest": "^1.0.12",
+    "@zaptrade/reports": "^1.0.5"
   }
 }

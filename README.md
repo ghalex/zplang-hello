@@ -1,25 +1,25 @@
-# zptrade-hello
+# zapcli-hello
 
-Hello World project for ZpTrade
+Hello World project for ZapCLI
 
 ## Project Description
 
-This is a simple "Hello, World!" project written in Zplang. The main purpose of this project is to demonstrate the basic syntax and structure of a Zplang program.
+This is a simple "Hello, World!" project to get you started. The main purpose of this project is to demonstrate the basic syntax and structure of a ZapCLI program.
 
 ## Installation
 
-To run this project, you will need to have `zplang-cli` installed on your machine.
+To run this project, you will need to have `zapcli` installed on your machine.
 
 ```
-npm i -g zplang-cli
+npm i -g @zaptrade/cli
 ```
 
 ## Usage
 
-Once you have Zplang installed, you can run the program by using:
+Once you have ZapCLI installed, you can run the program by using:
 
 ```
-zplang execute hello.zp
+zapcli execute hello.zp
 ```
 
 You can use the vscode task `Cmd + Shift + B` on the .zp file to run it.

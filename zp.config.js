@@ -1,4 +1,4 @@
-import { analyzers } from '@zaptrade/backtest'
+import { analyzers } from '@zapcli/backtest'
 
 const config = {
   // Data Provider
@@ -38,7 +38,9 @@ const config = {
     },
     analyzers: [
       new analyzers.RetursAnalyzer(),
-      new analyzers.PositionsAnalyzer()
+      new analyzers.DrawDownAnalyzer(),
+      new analyzers.TradesAnalyzer(),
+      new analyzers.PositionsAnalyzer(),
     ]
   }
 }

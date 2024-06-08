@@ -12,7 +12,7 @@
   "author": "Ghiura Alexandru",
   "license": "ISC",
   "dependencies": {
-    "@zaptrade/backtest": "^1.0.12",
-    "@zaptrade/reports": "^1.0.5"
+    "@zapcli/backtest": "^1.0.2",
+    "@zapcli/reports": "^1.0.2"
   }
 }

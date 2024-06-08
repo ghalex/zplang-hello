@@ -11,7 +11,7 @@ This is a simple "Hello, World!" project to get you started. The main purpose of
 To run this project, you will need to have `zapcli` installed on your machine.
 
 ```
-npm i -g @zaptrade/cli
+npm i -g @zapcli/cli
 ```
 
 ## Usage

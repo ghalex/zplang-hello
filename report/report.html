@@ -36,19 +36,19 @@
     <p class="text-sm"><b>End Cash</b>: <span id="cash2"></span></p>
   </div>
   <hr />
-  <div id="container" class="grid grid-cols-2 p-4 gap-4"></div>
+  <div id="container" class="grid grid-cols-2 p-4 gap-4 container mx-auto"></div>
 
   <script type="importmap">
     {
       "imports": {
         "@observablehq/plot": "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm",
-        "@zaptrade/reports": "https://cdn.jsdelivr.net/npm/@zaptrade/reports/dist/zaptrade-reports.es.js"
+        "@zapcli/reports": "https://cdn.jsdelivr.net/npm/@zapcli/reports/dist/zapcli-reports.es.js"
       }
     }
   </script>
   <script type="module">
     import * as Plot from "@observablehq/plot"
-    import renderReport from "@zaptrade/reports"
+    import renderReport from "@zapcli/reports"
 
     const container = document.querySelector("#container")
 

@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@zapcli/backtest':
-        specifier: ^1.0.2
-        version: 1.0.2
+        specifier: ^1.0.3
+        version: 1.0.3
       '@zapcli/reports':
-        specifier: ^1.0.2
-        version: 1.0.2
+        specifier: ^1.0.3
+        version: 1.0.3
 
 packages:
 
@@ -21,14 +21,14 @@ packages:
     resolution: {integrity: sha512-A9HWSboh1WgFonKqYKC522VkxJwhkTUTye606qjxQH8iPtSVjVXUF6JRKwf7MPaYTin/MypaSSd+08ML4LA1rw==}
     engines: {node: '>=12'}
 
-  '@zapcli/backtest@1.0.2':
-    resolution: {integrity: sha512-rtAoH20mF0hT5x6iSjxlMAkTDOriKb2AFXHfOcUs1QNljndrncO41kBZfyu5QDonQQXI6iFM5IdCSfzv3RG5dA==}
+  '@zapcli/backtest@1.0.3':
+    resolution: {integrity: sha512-cxSCiqhhxzes83b7delJCc5UDRRv7lBgsnx5q9K/PA4WJ9nLyzThAMTztqYuH9VfcJmTMD1+kF9ioM79E7h2nA==}
 
-  '@zapcli/core@1.0.2':
-    resolution: {integrity: sha512-avlb6Xzt4/DgeexgDsKBqvuNG7q+ag+DUtOSnGnuemEl5Z5jqtZTzGJKxvoyTKYNErip+liMv8aFKyzyn1K0ag==}
+  '@zapcli/core@1.0.3':
+    resolution: {integrity: sha512-XrVSM3TGPbEPqcCd8BBTOz5qkl8uNMJ50yxzfi3ahDJwuBV+HoqKoD2vT1bri667Kvy/M/71+XkwWkNGX5fIig==}
 
-  '@zapcli/reports@1.0.2':
-    resolution: {integrity: sha512-K4Mc6aLfhXwiPSVYn82ghTcVfmBe4O746raY15n0sjoN+Ib/d5KWNR7QdG7MTfBQgvPQCYvGTDWCdj2nCfGyhw==}
+  '@zapcli/reports@1.0.3':
+    resolution: {integrity: sha512-koX3x98S3fcJBEfj2e+skBTKNGChFhws4zFw6i6wtl5vqVyTlxBUGr7Fay791pIiXvBV6wzR79VAq1gEE9DSVw==}
 
   binary-search-bounds@2.0.5:
     resolution: {integrity: sha512-H0ea4Fd3lS1+sTEB2TgcLoK21lLhwEJzlQv3IN47pJS976Gx4zoWe0ak3q+uYh60ppQxg9F16Ri4tS1sfD4+jA==}
@@ -220,19 +220,19 @@ snapshots:
       interval-tree-1d: 1.0.4
       isoformat: 0.2.1
 
-  '@zapcli/backtest@1.0.2':
+  '@zapcli/backtest@1.0.3':
     dependencies:
-      '@zapcli/core': 1.0.2
+      '@zapcli/core': 1.0.3
       dayjs: 1.11.11
       zplang: 1.0.55
 
-  '@zapcli/core@1.0.2':
+  '@zapcli/core@1.0.3':
     dependencies:
       dayjs: 1.11.11
       ramda: 0.30.1
       simple-statistics: 7.8.3
 
-  '@zapcli/reports@1.0.2':
+  '@zapcli/reports@1.0.3':
     dependencies:
       '@observablehq/plot': 0.6.14
       dayjs: 1.11.11

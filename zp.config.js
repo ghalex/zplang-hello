@@ -1,10 +1,15 @@
 import { analyzers } from '@zapcli/backtest'
 
 const config = {
+  // Directories
+  dataDir: "./data",
+  reportsDir: "./reports",
+  backtestsDir: "./backtests",
+
   // Data Provider
   // ex. zapcli download -s AAPL
-  dataDir: "./data",
-  apiUrl: "http://zapant.com/api",
+  dataProvider: "zapant",
+
   // Execute automation
   // ex. zapcli execute
   execute: {

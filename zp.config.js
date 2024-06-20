@@ -17,6 +17,7 @@ const config = {
     inputs: {
       assets: ["AAPL", "MSFT"],
       initialCapital: 10000,
+      cash: 5000,
       openPositions: [
         // Provide open positions to automation
         // {
@@ -37,7 +38,6 @@ const config = {
   backtest: {
     startDate: "2024-05-01",
     endDate: "2024-05-20",
-    saveResult: "./report/data.json",
     inputs: {
       assets: []
     },

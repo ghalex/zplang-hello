@@ -12,7 +12,8 @@
   "author": "Ghiura Alexandru",
   "license": "ISC",
   "dependencies": {
-    "@zapcli/backtest": "^1.0.3",
+    "@zapcli/backtest": "^1.0.6",
+    "@zapcli/core": "^1.0.6",
     "@zapcli/reports": "^1.0.3"
   }
 }

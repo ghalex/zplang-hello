@@ -15,7 +15,7 @@ const config = {
   execute: {
     date: "2024-05-20",
     inputs: {
-      assets: ["AAPL", "MSFT"],
+      symbols: ["AAPL", "MSFT"],
       initialCapital: 10000,
       openPositions: [
         // Provide open positions to automation

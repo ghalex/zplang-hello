@@ -1,15 +1,13 @@
-const assets = ["AAPL", "MSFT"]
+const symbols = ["AAPL", "MSFT"]
 const window = 1
 const settings = {}
 
 function run() {
-  if (this.barIndex % 5 === 0) {
-    this.closePositions()
-  } else {
-    for (const symbol of assets) {
-      this.buy(this.asset(symbol), 1)
-    }
+  for (const symbol of this.inputs.symbols) {
+    this.buy(this.asset(symbol), 1)
   }
+
+  this.print(this.getOrders())
 }
 
-return { assets, window, run }
+return { symbols, window, settings, run }

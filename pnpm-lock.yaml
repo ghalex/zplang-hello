@@ -9,23 +9,23 @@ importers:
   .:
     dependencies:
       '@zapcli/backtest':
-        specifier: ^1.0.3
-        version: 1.0.3
+        specifier: ^1.0.11
+        version: 1.0.11
       '@zapcli/reports':
         specifier: ^1.0.3
         version: 1.0.3
 
 packages:
 
-  '@observablehq/plot@0.6.14':
-    resolution: {integrity: sha512-A9HWSboh1WgFonKqYKC522VkxJwhkTUTye606qjxQH8iPtSVjVXUF6JRKwf7MPaYTin/MypaSSd+08ML4LA1rw==}
+  '@observablehq/plot@0.6.15':
+    resolution: {integrity: sha512-xWHnb60XmsUL0YWvYER7jWghMYIqG+jA+ZR9UDx1k2GozflbiRJxh66OJLzITqxypUHEzgce30hvD0T1/37A6A==}
     engines: {node: '>=12'}
 
-  '@zapcli/backtest@1.0.3':
-    resolution: {integrity: sha512-cxSCiqhhxzes83b7delJCc5UDRRv7lBgsnx5q9K/PA4WJ9nLyzThAMTztqYuH9VfcJmTMD1+kF9ioM79E7h2nA==}
+  '@zapcli/backtest@1.0.11':
+    resolution: {integrity: sha512-Pu15yj9Oc62MfyGOSfLHpZXvgy6zU/t4TILTedilvQnLo6h1u7L6oIt/PKoPJfMhEUJtUwpAVwj7utmrBkhUOQ==}
 
-  '@zapcli/core@1.0.3':
-    resolution: {integrity: sha512-XrVSM3TGPbEPqcCd8BBTOz5qkl8uNMJ50yxzfi3ahDJwuBV+HoqKoD2vT1bri667Kvy/M/71+XkwWkNGX5fIig==}
+  '@zapcli/core@1.0.11':
+    resolution: {integrity: sha512-ei/PUVTxAyhMl0dgOgD3hhzwr/8J8gC7IFrk8YKmMnVgiU1RfWcIonOpN+MAW8tDXxfBK+sXpn8+MaBDm8MbYA==}
 
   '@zapcli/reports@1.0.3':
     resolution: {integrity: sha512-koX3x98S3fcJBEfj2e+skBTKNGChFhws4zFw6i6wtl5vqVyTlxBUGr7Fay791pIiXvBV6wzR79VAq1gEE9DSVw==}
@@ -164,8 +164,8 @@ packages:
     resolution: {integrity: sha512-e1U46jVP+w7Iut8Jt8ri1YsPOvFpg46k+K8TpCb0P+zjCkjkPnV7WzfDJzMHy1LnA+wj5pLT1wjO901gLXeEhA==}
     engines: {node: '>=12'}
 
-  dayjs@1.11.11:
-    resolution: {integrity: sha512-okzr3f11N6WuqYtZSvm+F776mB41wRZMhKP+hc34YdW+KmtYYK9iqvHSwo2k9FEH3fhGXvOPV6yz2IcSrfRUDg==}
+  dayjs@1.11.12:
+    resolution: {integrity: sha512-Rt2g+nTbLlDWZTwwrIXjy9MeiZmSDI375FvZs72ngxx8PDC6YXOeR3q5LAuPzjZQxhiWdRKac7RKV+YyQYfYIg==}
 
   delaunator@5.0.1:
     resolution: {integrity: sha512-8nvh+XBe96aCESrGOqMp/84b13H9cdKbG5P2ejQCh4d4sK9RL4371qou9drQjMhvnPmhWl5hnmqbEE0fXr9Xnw==}
@@ -206,36 +206,33 @@ packages:
   table-builder@2.1.1:
     resolution: {integrity: sha512-8nisA2wuyyswF22t8nQzH8itn+W5Q5I6UjGkD6pYtXeKvVhj4En+dXAZz/XiZvx45hoc2v/nXFFRhTeiFPvkXg==}
 
-  zplang@1.0.55:
-    resolution: {integrity: sha512-viYR9ev4CYpkCxaWqarpaw2n7itwJZaxyI2HfJiIZVkOz/6nV/LvQTyf51krkQkmeexWKM9GyQ681t7YlrE4hw==}
-
-  zptrade@1.0.7:
-    resolution: {integrity: sha512-jOIHFChm8o1GNIvq2MzBFvNCiQUTXEPTFila2PoT2dVoJ7/LNsm8WHKIntkHvFUDAtIN/hkxb17FBfmvs73tHQ==}
+  zplang@1.0.59:
+    resolution: {integrity: sha512-8QovjsUvPlHfFsewYcKaB2PyPcGC2ZTPM/EDdKWMfDHVxuWJnGp6aCqGG4cjY++7uzEVv/4V2cYGjcagB6L1Ug==}
 
 snapshots:
 
-  '@observablehq/plot@0.6.14':
+  '@observablehq/plot@0.6.15':
     dependencies:
       d3: 7.9.0
       interval-tree-1d: 1.0.4
       isoformat: 0.2.1
 
-  '@zapcli/backtest@1.0.3':
+  '@zapcli/backtest@1.0.11':
     dependencies:
-      '@zapcli/core': 1.0.3
-      dayjs: 1.11.11
-      zplang: 1.0.55
+      '@zapcli/core': 1.0.11
+      dayjs: 1.11.12
+      zplang: 1.0.59
 
-  '@zapcli/core@1.0.3':
+  '@zapcli/core@1.0.11':
     dependencies:
-      dayjs: 1.11.11
+      dayjs: 1.11.12
       ramda: 0.30.1
       simple-statistics: 7.8.3
 
   '@zapcli/reports@1.0.3':
     dependencies:
-      '@observablehq/plot': 0.6.14
-      dayjs: 1.11.11
+      '@observablehq/plot': 0.6.15
+      dayjs: 1.11.12
       ramda: 0.30.1
       table-builder: 2.1.1
 
@@ -395,7 +392,7 @@ snapshots:
       d3-transition: 3.0.1(d3-selection@3.0.0)
       d3-zoom: 3.0.0
 
-  dayjs@1.11.11: {}
+  dayjs@1.11.12: {}
 
   delaunator@5.0.1:
     dependencies:
@@ -427,15 +424,9 @@ snapshots:
 
   table-builder@2.1.1: {}
 
-  zplang@1.0.55:
+  zplang@1.0.59:
     dependencies:
-      dayjs: 1.11.11
+      '@zapcli/core': 1.0.11
+      dayjs: 1.11.12
       ohm-js: 17.1.0
       ramda: 0.30.1
-      zptrade: 1.0.7
-
-  zptrade@1.0.7:
-    dependencies:
-      dayjs: 1.11.11
-      ramda: 0.30.1
-      simple-statistics: 7.8.3

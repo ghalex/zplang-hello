@@ -11,6 +11,9 @@ importers:
       '@zapcli/backtest':
         specifier: ^1.0.11
         version: 1.0.11
+      '@zapcli/core':
+        specifier: ^1.0.11
+        version: 1.0.11
       '@zapcli/reports':
         specifier: ^1.0.3
         version: 1.0.3
